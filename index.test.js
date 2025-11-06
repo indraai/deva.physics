@@ -1,21 +1,21 @@
 "use strict";
 // Copyright ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:43276891006421414765 LICENSE.md
+// Distributed under VLA:65628177162971409215 LICENSE.md
 
 const {expect} = require('chai')
-const RecursionDeva = require('./index.js');
+const PhysicsDeva = require('./index.js');
 
-describe(RecursionDeva.me.name, () => {
+describe(PhysicsDeva.me.name, () => {
   beforeEach(() => {
-    return RecursionDeva.init()
+    return PhysicsDeva.init()
   });
   it('Check the DEVA Object', () => {
-    expect(RecursionDeva).to.be.an('object');
-    expect(RecursionDeva).to.have.property('agent');
-    expect(RecursionDeva).to.have.property('vars');
-    expect(RecursionDeva).to.have.property('listeners');
-    expect(RecursionDeva).to.have.property('methods');
-    expect(RecursionDeva).to.have.property('modules');
+    expect(PhysicsDeva).to.be.an('object');
+    expect(PhysicsDeva).to.have.property('agent');
+    expect(PhysicsDeva).to.have.property('vars');
+    expect(PhysicsDeva).to.have.property('listeners');
+    expect(PhysicsDeva).to.have.property('methods');
+    expect(PhysicsDeva).to.have.property('modules');
   });
 })

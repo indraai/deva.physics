@@ -1,9 +1,9 @@
 "use strict";
 // Copyright ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:43276891006421414765 LICENSE.md
+// Distributed under VLA:65628177162971409215 LICENSE.md
 
-// Recursion Deva
+// Physics Deva
 import Deva from '@indra.ai/deva';
 
 import pkg from './package.json' with {type:'json'};
@@ -29,7 +29,7 @@ const info = {
   copyright: pkg.copyright,
 };
 
-const RECURSION = new Deva({
+const PHYSICS = new Deva({
   info,
   agent,
   vars,
@@ -61,4 +61,4 @@ const RECURSION = new Deva({
     console.log(err);
   },
 });
-export default RECURSION;
+export default PHYSICS;
