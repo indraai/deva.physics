@@ -124,10 +124,18 @@
       },
       "elements": [
         "Ether",
-        "Air",
+        "Wind",
         "Fire",
         "Water",
         "Earth"
+      ],
+      "concepts": [
+        "Quantum",
+        "Isotropic",
+        "Kinetic",
+        "Cymatic",
+        "Particle",
+        "Gravity"
       ],
       "context": {
         "uid": "generating uid",

@@ -40,8 +40,49 @@ const PHYSICS = new Deva({
   },
   listeners: {},
   modules: {},
-  func: {},
-  methods: {},
+  func: {
+    async aspect(type, idx, packet) {
+      this.vars.status = this.vars[type][idx].toLowerCase();
+      const uid = await this.methods.uid(packet);
+      this.vars.status = false;
+      return uid;
+    }
+  },
+  methods: {
+    async ether(packet) {
+      return await this.func.aspect('elements', 0, packet);
+    },
+    async wind(packet) {
+      return await this.func.aspect('elements', 1, packet);
+    },
+    async fire(packet) {
+      return await this.func.aspect('elements', 2, packet);
+    },
+    async water(packet) {
+      return await this.func.aspect('elements', 3, packet);
+    },
+    async earth(packet) {
+      return await this.func.aspect('elements', 4, packet);
+    },
+    async quantum(packet) {
+      return await this.func.aspect('concepts', 0, packet);
+    },
+    async isotropic(packet) {
+      return await this.func.aspect('concepts', 1, packet);
+    },
+    async kinetic(packet) {
+      return await this.func.aspect('concepts', 2, packet);
+    },
+    async cymatic(packet) {
+      return await this.func.aspect('concepts', 3, packet);
+    },
+    async particle(packet) {
+      return await this.func.aspect('concepts', 4, packet);
+    },
+    async gravity(packet) {
+      return await this.func.aspect('concepts', 5, packet);
+    },
+  },
   onInit(data, resolve) {
     const {personal} = this.license(); // get the license config
     const agent_license = this.info().VLA; // get agent license
@@ -49,7 +90,7 @@ const PHYSICS = new Deva({
     // return this.start if license_check passes otherwise stop.
     return license_check ? this.start(data, resolve) : this.stop(data, resolve);
   }, 
-  async onReady(data, resolve) {
+  onReady(data, resolve) {
     const {concerns, global} = this.license(); // get the license config
     const {VLA} = this.info();
 
