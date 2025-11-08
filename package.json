@@ -1,7 +1,7 @@
 {
   "id": "65628177162971409215",
   "name": "@indra.ai/deva.physics",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "VLA:65628177162971409215 LICENSE.md",
   "VLA": {
     "uid": "65628177162971409215",
@@ -165,7 +165,7 @@
         },
         "earth": {
           "id": "56261144020211898415",
-          "parent_id": "50912858503653497966",          
+          "parent_id": "50912858503653497966",
           "key": "earth",
           "name": "Earth",
           "warning": "Earth Warning",
