@@ -41,29 +41,74 @@ const PHYSICS = new Deva({
   listeners: {},
   modules: {},
   func: {
-    async aspect(type, idx, packet) {
-      this.vars.status = this.vars[type][idx].toLowerCase();
-      const uid = await this.methods.uid(packet);
+    async aspect(opts) {
+      const estr = `${opts.type}:${opts.key}:${opts.packet.id.uid}`;
+      this.action('func', estr);
+      
+      const {key, name, warning} = this.vars[opts.type][opts.key];
+      
+      this.vars.status = key;
+      this.vars.warning = warning;
+      this.state('await', estr);
+      const uid = await this.methods.uid(opts.packet);
+
       this.vars.status = false;
+      this.vars.warning = false;
+
+      this.action('return', estr); // set action return
+      this.state('valid', estr);
+      this.intent('good', estr)
       return uid;
     }
   },
+
   methods: {
     async ether(packet) {
-      return await this.func.aspect('elements', 0, packet);
+      const type = 'elements';
+      const key = 'ether';
+      this.context(key, packet.id.uid);
+      this.action('method', `${key}:${packet.id.uid}`);
+      const opts = {key, type, packet};
+      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      return await this.func.aspect(opts);
     },
     async wind(packet) {
-      return await this.func.aspect('elements', 1, packet);
+      const type = 'elements';
+      const key = 'wind';
+      this.context(key, packet.id.uid);
+      this.action('method', `${key}:${packet.id.uid}`);
+      const opts = {key, type, packet};
+      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      return await this.func.aspect(opts);
     },
     async fire(packet) {
-      return await this.func.aspect('elements', 2, packet);
+      const type = 'elements';
+      const key = 'fire';
+      this.context(key, packet.id.uid);
+      this.action('method', `${key}:${packet.id.uid}`);
+      const opts = {key, type, packet};
+      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      return await this.func.aspect(opts);
     },
     async water(packet) {
-      return await this.func.aspect('elements', 3, packet);
+      const type = 'elements';
+      const key = 'water';
+      this.context(key, packet.id.uid);
+      this.action('method', `${key}:${packet.id.uid}`);
+      const opts = {key, type, packet};
+      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      return await this.func.aspect(opts);
     },
     async earth(packet) {
-      return await this.func.aspect('elements', 4, packet);
+      const type = 'elements';
+      const key = 'earth';
+      this.context(key, packet.id.uid);
+      this.action('method', `${key}:${packet.id.uid}`);
+      const opts = {key, type, packet};
+      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      return await this.func.aspect(opts);
     },
+
     async quantum(packet) {
       return await this.func.aspect('concepts', 0, packet);
     },

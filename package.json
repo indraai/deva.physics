@@ -59,7 +59,7 @@
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.20.4"
+    "@indra.ai/deva": "^1.20.5"
   },
   "data": {
     "agent": {
@@ -122,21 +122,90 @@
         "error": "❌ ERROR!",
         "invalid_license": "💣 Invalid License"
       },
-      "elements": [
-        "Ether",
-        "Wind",
-        "Fire",
-        "Water",
-        "Earth"
-      ],
-      "concepts": [
-        "Quantum",
-        "Isotropic",
-        "Kinetic",
-        "Cymatic",
-        "Particle",
-        "Gravity"
-      ],
+      "elements": {
+        "ether": {
+          "id": "23598514669392455111",
+          "parent_id": false,
+          "key": "ether",
+          "name": "Ether",
+          "warning": "🔔 For all these beings spring from the ether only, and return into the ether. Ether is greater than these; ether is their rest. We therefore conclude from the passage that the well-known Ether is the cause of the entire aggregate of things, moving or non-moving. It having thus been ascertained that the ether is the general cause or Brahman, we must interpret such words as 'thinking' which we meet with in connexion with the creative activity of the general cause in a suitable, or metaphorical sense.",
+          "fingerprint": "c9C79tQc45d1rI4l9XmAnlwaWX/sr2/X+xsVR3Kn2zM=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "date": "Friday, November 7, 2025 - 2:18:25 PM"
+        },
+        "wind": {
+          "id": "55501279669663395235",
+          "parent_id": "23598514669392455111",
+          "key": "wind",
+          "name": "Wind",
+          "warning": "💨 For all these beings merge into wind alone, and from wind they arise. This is the deity belonging to the Prastâva.",
+          "fingerprint": "jtUzejTTm7T9p1fFE3lbUTXtkuXxZeEKejYraizAzeU=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "date": "Friday, November 7, 2025 - 2:18:31 PM"
+        },
+        "fire": {
+          "id": "23328595949005171414",
+          "parent_id": "55501279669663395235",
+          "key": "fire",
+          "name": "Fire/Light",
+          "warning": "Now that light which shines above this heaven, higher than everything, in the highest worlds beyond which there are no other worlds, that is the same light which is within man.",
+          "fingerprint": "20aYyrdox5eYUOU6nobSQ+AhByPtFZj0Sfb7Y04hb58=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "date": "Friday, November 7, 2025 - 2:18:58 PM"
+        },
+        "water": {
+          "id": "50912858503653497966",
+          "parent_id": "23328595949005171414",
+          "key": "water",
+          "name": "Water",
+          "warning": "Water Warning",
+          "fingerprint": "fX4IiKMyQBpU2hw7aRI9/YgKpvNGnDo749/zfGMxkJU=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "date": "Friday, November 7, 2025 - 2:19:23 PM"
+        },
+        "earth": {
+          "id": "56261144020211898415",
+          "parent_id": "50912858503653497966",          
+          "key": "earth",
+          "name": "Earth",
+          "warning": "Earth Warning",
+          "fingerprint": "fingerprint: fvG/KumAvpcybqEiwi9lv+1eOSo6gGvjw46jKK2++5I=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "date": "Friday, November 7, 2025 - 2:19:34 PM"
+        }
+      },
+      "concepts": {
+        "quantum": {
+          "key": "quantum",
+          "name": "Quantum",
+          "warning": "Quantum Warning"
+        },
+        "isotropic": {
+          "key": "isotropic",
+          "name": "Isotropic",
+          "warning": "Isotropic Warning"
+        },
+        "kinetic": {
+          "key": "kinetic",
+          "name": "Kinetic",
+          "warning": "Kinetic Warning"
+        },
+        "cymatic": {
+          "key": "cymatic",
+          "name": "Cymatic",
+          "warning": "Cymatic Warning"
+        },
+        "particle": {
+          "key": "particle",
+          "name": "Particle",
+          "warning": "Particle Warning"
+        },
+        "gravity": {
+          "key": "gravity",
+          "name": "Gravity",
+          "warning": "Gravity Warning"
+        }
+      },
       "context": {
         "uid": "generating uid",
         "status": "getting status",
@@ -146,7 +215,12 @@
         "help": "asking for help",
         "file": "📁 View file",
         "add": "🎉 Add law",
-        "search": "🔎 Search law"
+        "search": "🔎 Search law",
+        "ether": "🔔 Ether Element",
+        "wind": "💨 Wind Element",
+        "fire": "🔥 Fire Element",
+        "water": "💧 Water Element",
+        "earth": "🌱 Earth Element"
       },
       "ask": {
         "history": []
