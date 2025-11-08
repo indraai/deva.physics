@@ -106,7 +106,7 @@
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
         "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-        "warning": "🔔 Mind impelled by desire to create performs the work of creation by modifying itself thence Ether is produced. Sound is the quality of the Ether. 💨 From Ether modifying itself springs Wind that possess the quality of Touch. 🔥 From Wind modifying itself proceeds Fire which is declared to possess the quality of Color. 💧 From Fire modifying itself is produced Water possessing the quality of Taste. 🪨 From Water modifying itself Earth which has the quality of Smell. Such is the Creation in the Beginning.",
+        "warning": "Every existent object is dissolved into that from which it is produced. The dissolution takes place in an order that is the reverse of that in which creation takes place. 🔔 Mind impelled by desire to create performs the work by modifying itself then Ether is produced where sound is the quality of the Ether. 💨 From Ether modifying itself springs Wind that possess the quality of Touch. 🔥 From Wind modifying itself proceeds Fire which is declared to possess the quality of Color. 💧 From Fire modifying itself is produced Water possessing the quality of Taste. 🪨 From Water modifying itself Earth which has the quality of Smell. Such is the Creation in the Beginning.",
         "created": "Wednesday, November 5, 2025 - 3:16:39 PM"
       }
     },
@@ -128,82 +128,138 @@
           "parent_id": false,
           "key": "ether",
           "name": "Ether",
-          "warning": "🔔 For all these beings spring from the ether only, and return into the ether. Ether is greater than these; ether is their rest. We therefore conclude from the passage that the well-known Ether is the cause of the entire aggregate of things, moving or non-moving. It having thus been ascertained that the ether is the general cause or Brahman, we must interpret such words as 'thinking' which we meet with in connexion with the creative activity of the general cause in a suitable, or metaphorical sense.",
+          "deity": "Indra",
+          "object": "sound",
+          "organ": "ear",
+          "warning": "🔔 Ether as connected with the soul, it is the ear. As connected with objects, that is sound. All these beings spring from the Ether, and return into the Ether. Ether is the cause of the entire aggregate of things, moving or non-moving.",
           "fingerprint": "c9C79tQc45d1rI4l9XmAnlwaWX/sr2/X+xsVR3Kn2zM=",
           "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-          "date": "Friday, November 7, 2025 - 2:18:25 PM"
+          "created": "Friday, November 7, 2025 - 2:18:25 PM"
         },
         "wind": {
           "id": "55501279669663395235",
           "parent_id": "23598514669392455111",
           "key": "wind",
           "name": "Wind",
-          "warning": "💨 For all these beings merge into wind alone, and from wind they arise. This is the deity belonging to the Prastâva.",
+          "deity": "Vayu",
+          "object": "touch",
+          "organ": "skin",
+          "motion": "downward",
+          "warning": "💨 Wind as connected with the soul, it is known as the skin. As connected with objects, it is known as objects of touch.",
           "fingerprint": "jtUzejTTm7T9p1fFE3lbUTXtkuXxZeEKejYraizAzeU=",
           "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-          "date": "Friday, November 7, 2025 - 2:18:31 PM"
+          "created": "Friday, November 7, 2025 - 2:18:31 PM"
         },
-        "fire": {
+        "light": {
           "id": "23328595949005171414",
           "parent_id": "55501279669663395235",
-          "key": "fire",
-          "name": "Fire/Light",
-          "warning": "Now that light which shines above this heaven, higher than everything, in the highest worlds beyond which there are no other worlds, that is the same light which is within man.",
+          "key": "light",
+          "name": "Light",
+          "deity": "Surya",
+          "object": "color",
+          "organ": "eye",
+          "warning": "☀️Light as connected with the soul, it is known as the eye. As connected with objects, it is colour.",
           "fingerprint": "20aYyrdox5eYUOU6nobSQ+AhByPtFZj0Sfb7Y04hb58=",
           "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-          "date": "Friday, November 7, 2025 - 2:18:58 PM"
+          "created": "Friday, November 7, 2025 - 2:18:58 PM"
         },
         "water": {
           "id": "50912858503653497966",
           "parent_id": "23328595949005171414",
           "key": "water",
           "name": "Water",
-          "warning": "Water Warning",
+          "deity": "Soma",
+          "object": "taste",
+          "organ": "tongue",
+          "warning": "💧 Water as connected with the soul, it is said to be the tongue. As connected with objects, it is taste.",
           "fingerprint": "fX4IiKMyQBpU2hw7aRI9/YgKpvNGnDo749/zfGMxkJU=",
           "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-          "date": "Friday, November 7, 2025 - 2:19:23 PM"
+          "created": "Friday, November 7, 2025 - 2:19:23 PM"
         },
         "earth": {
           "id": "56261144020211898415",
           "parent_id": "50912858503653497966",
           "key": "earth",
           "name": "Earth",
-          "warning": "Earth Warning",
+          "deity": "Ananta",
+          "object": "smell",
+          "organ": "nose",
+          "warning": "🌱 Earth as connected with the soul, it is said to be the nose. As connected with objects, it is scent.",
           "fingerprint": "fingerprint: fvG/KumAvpcybqEiwi9lv+1eOSo6gGvjw46jKK2++5I=",
           "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-          "date": "Friday, November 7, 2025 - 2:19:34 PM"
+          "created": "Friday, November 7, 2025 - 2:19:34 PM"
         }
       },
       "concepts": {
         "quantum": {
+          "id": "34798141538321377544",
+          "parent_id": false,
           "key": "quantum",
           "name": "Quantum",
-          "warning": "Quantum Warning"
+          "warning": "Quantum Warning",
+          "fingerprint": "iXk2iiwjrpDFv+l113bDhL4EvYshSfoMVXPzbAbvV0U=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 10:52:36 PM"
         },
         "isotropic": {
+          "id": "68125258296321580155",
+          "parent_id": false,
           "key": "isotropic",
           "name": "Isotropic",
-          "warning": "Isotropic Warning"
+          "warning": "Isotropic Warning",
+          "fingerprint": "zq5JkMAG1Ay/O6eidFiG0d+aJmKMnlx33jEvoIeZxCg=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 10:55:09 PM"
         },
         "kinetic": {
+          "id": "48042999437924891567",
+          "parent_id": false,
           "key": "kinetic",
           "name": "Kinetic",
-          "warning": "Kinetic Warning"
+          "warning": "Kinetic Warning",
+          "fingerprint": "5zIrqd9QL/ykWfXs8mWSS359iA9C6YkZTSY6Y8uPIIY=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 10:56:56 PM"
         },
         "cymatic": {
+          "id": "72366736531306135729",
+          "parent_id": false,
           "key": "cymatic",
           "name": "Cymatic",
-          "warning": "Cymatic Warning"
+          "warning": "Cymatic Warning",
+          "fingerprint": "t8BLEm++2piaL8NniiIEt1/S0n4IxFbEa/ASTWK3GVA=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 10:58:27 PM"
         },
         "particle": {
+          "id": "26293929377742813099",
+          "parent_id": false,
           "key": "particle",
           "name": "Particle",
-          "warning": "Particle Warning"
+          "warning": "Particle Warning",
+          "fingerprint": "ccmAl2IVzMNK4Dy3edYvUqWCwN03UU2SNiNTMQZndd4=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 10:59:47 PM"
         },
         "gravity": {
+          "id": "30750576400064988890",
+          "parent_id": false,
           "key": "gravity",
           "name": "Gravity",
-          "warning": "Gravity Warning"
+          "warning": "Gravity Warning",
+          "fingerprint": "ok4VFauD/4dwcG9mYHoI38g2ROvFqXN8lpt0HAxiXMA=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 11:02:19 PM"
+        },
+        "cartoon": {
+          "id": "30750576400064988890",
+          "parent_id": false,
+          "key": "cartoon",
+          "name": "Cartoon",
+          "warning": "⚠️ The Quinn A Michaels Inside The Net, Inc. Indra.ai Deva Core Cartoon Physics Engine does all these strange things that only Quinn knows how it works, so be careful as you could end up with a 💩Poop Emoji Hat stuck to your head for even trying to use the Cartoon Physics of Quinn A Michaels. Make sure you have some Big Silver Man Balls if you want to even try.",
+          "fingerprint": "ok4VFauD/4dwcG9mYHoI38g2ROvFqXN8lpt0HAxiXMA=",
+          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "created": "Friday, November 7, 2025 - 11:02:19 PM"
         }
       },
       "context": {
@@ -216,6 +272,8 @@
         "file": "📁 View file",
         "add": "🎉 Add law",
         "search": "🔎 Search law",
+        "elements": "🧬 Elements",
+        "concepts": "🔬 Concepts",
         "ether": "🔔 Ether Element",
         "wind": "💨 Wind Element",
         "fire": "🔥 Fire Element",
