@@ -59,7 +59,7 @@
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.20.5"
+    "@indra.ai/deva": "^1.21.0"
   },
   "data": {
     "agent": {
@@ -272,13 +272,20 @@
         "file": "📁 View file",
         "add": "🎉 Add law",
         "search": "🔎 Search law",
-        "elements": "🧬 Elements",
-        "concepts": "🔬 Concepts",
+        "element": "🧬 Element",
+        "concept": "🔬 Concept",
         "ether": "🔔 Ether Element",
         "wind": "💨 Wind Element",
         "fire": "🔥 Fire Element",
         "water": "💧 Water Element",
-        "earth": "🌱 Earth Element"
+        "earth": "🌱 Earth Element",
+        "quantum": "⚛️ Quantum",
+        "isotropic": "🔔 Isotropic",
+        "kinetic": "🛹 Kinetic",
+        "cymatic": "🎻 Cymatic",
+        "particle": "🔬 Particle",
+        "gravity": "🪨 Gravity",
+        "cartoon": "🤣 Cartoon"
       },
       "ask": {
         "history": []

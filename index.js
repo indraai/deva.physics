@@ -62,23 +62,35 @@ const PHYSICS = new Deva({
       return uid;
     },
     async router(type, packet) {
-      this.context(type, packet.id.uid);
-      this.action('func', `router:${type}:${packet.id.uid}`);
+      const {id} = packet;
       const key = packet.q.meta.params.pop();
+      this.context(type, `router:${key}:${id.uid}`);
+
+      const estr = `router:${type}:${key}:${id.uid}`;
+      this.action('func', estr);
       
+      this.state('data', `router:${type}:${key}:opts:${id.uid}`); // set state data
       const opts = {key, type, packet};
-      this.state('await', `${key}:${packet.id.uid}`); // set action return
+      
+      this.action('return', `router:${type}:${key}:aspect:${id.uid}`); // set action return
+      this.state('await', `router:${type}:${key}:aspect:${id.uid}`); // set action return
       return await this.func.aspect(opts);      
     }
   },
 
   methods: {
     async element(packet) {
-      this.action('method', `elements:${packet.id.uid}`);
+      const {id} = packet;
+      this.context('concept', id.uid); // set context concept
+      this.action('method', `element:${id.uid}`);
+      this.state('await', `element:${id.uid}`);
       return await this.func.router('elements', packet);
     },
     async concept(packet) {
-      this.action('method', `concepts:${packet.id.uid}`);
+      const {id} = packet;
+      this.context('concept', id.uid); // set context concept
+      this.action('method', `concept:${id.uid}`);
+      this.state('await', `concept:${id.uid}`);
       return await this.func.router('concepts', packet);
     },
   },
