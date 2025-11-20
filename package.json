@@ -59,7 +59,7 @@
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.25.0"
+    "@indra.ai/deva": "^1.26.0"
   },
   "data": {
     "agent": {
@@ -133,21 +133,21 @@
           "organ": "ear",
           "warning": "🔔 Ether as connected with the soul, it is the ear. As connected with objects, that is sound. All these beings spring from the Ether, and return into the Ether. Ether is the cause of the entire aggregate of things, moving or non-moving.",
           "fingerprint": "c9C79tQc45d1rI4l9XmAnlwaWX/sr2/X+xsVR3Kn2zM=",
-          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
           "created": "Friday, November 7, 2025 - 2:18:25 PM"
         },
-        "wind": {
+        "air": {
           "id": "55501279669663395235",
           "parent_id": "23598514669392455111",
-          "key": "wind",
-          "name": "Wind",
+          "key": "air",
+          "name": "Air",
           "deity": "Vayu",
           "object": "touch",
           "organ": "skin",
           "motion": "downward",
-          "warning": "💨 Wind as connected with the soul, it is known as the skin. As connected with objects, it is known as objects of touch.",
+          "warning": "💨 Air as connected with the soul, it is known as the skin. As connected with objects, it is known as objects of touch.",
           "fingerprint": "jtUzejTTm7T9p1fFE3lbUTXtkuXxZeEKejYraizAzeU=",
-          "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+          "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
           "created": "Friday, November 7, 2025 - 2:18:31 PM"
         },
         "light": {
